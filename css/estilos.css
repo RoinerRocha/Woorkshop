@@ -25,6 +25,7 @@ body
     vertical-align: middle;
 }
 
+
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
@@ -55,6 +56,11 @@ body
     text-align: center;
     background: white;
     padding: 1em;
+}
+#post #poster1
+{
+    height: 300;
+    width: 300;
 }
 #footer
 {

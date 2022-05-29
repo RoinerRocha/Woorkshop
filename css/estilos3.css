@@ -56,7 +56,7 @@ body
 #post
 {
     text-align: center;
-    background: white;
+    background: #f7cb07;
     padding: 1em;
 }
 #post #poster1
@@ -66,8 +66,14 @@ body
 }
 #footer
 {
-    background: #777;
+    background: #f03b1c;
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+#footer #tagline3
+{
+    text-align: right;
+    color: white;
+    font-size: 18px;
 }

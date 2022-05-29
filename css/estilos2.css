@@ -13,7 +13,7 @@ body
 {
     background: #33A;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    color: #EABE3F;
+    color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
@@ -37,7 +37,7 @@ body
 {
     font-weight: normal;
     font-size: 25px;
-    color: #EABE3F;
+    color: red;
     
 }
 #container
@@ -56,7 +56,7 @@ body
 #post
 {
     text-align: center;
-    background: #EABE3F;
+    background: white;
     padding: 1em;
 }
 #post #poster1
@@ -66,8 +66,15 @@ body
 }
 #footer
 {
-    background: #777;
+    background: #FF6600;
     color: white;
     text-align: center;
     padding: 0.5em;
 }
+#footer #tagline3
+{
+    text-align: right;
+    color: white;
+    font-size: 18px;
+}
+

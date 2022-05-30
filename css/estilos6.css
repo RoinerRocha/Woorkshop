@@ -11,7 +11,7 @@ body
 
 #cabecera 
 {
-    background: #33A;
+    background: rgb(216, 42, 42);
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
@@ -56,8 +56,9 @@ body
 #post
 {
     text-align: center;
-    background: white;
+    background: rgb(54, 81, 235);
     padding: 1em;
+    color: white;
 }
 #post #poster1
 {
@@ -66,8 +67,14 @@ body
 }
 #footer
 {
-    background: #777;
+    background: rgb(22, 219, 32);
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+#footer #tagline3
+{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }

@@ -71,3 +71,22 @@ body
     text-align: center;
     padding: 0.5em;
 }
+.parrafo-1{
+    background: #26272b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.info-1{
+    background: white;
+    color: #26272b;
+}
+.info-2{
+    background: rgb(122, 102, 211);
+    color: #26272b;
+}
+.info-3{
+    background: rgb(180, 172, 169);
+    color: #26272b;
+}

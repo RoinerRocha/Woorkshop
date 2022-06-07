@@ -1,0 +1,29 @@
+body
+{
+    background: white;
+    color: black;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 16px;
+    margin: 0;  
+    padding: 0;
+}
+#container #span
+{
+    color: red;
+}
+#container #logo
+{
+    float: right;
+    width: 90px;
+    height: 90px;
+}
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+    padding: 1em;
+}

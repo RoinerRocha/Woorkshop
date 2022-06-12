@@ -8,12 +8,30 @@ body
     margin: 0;  
     padding: 0;
 }
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100;
+ 
+    
+}
+th{
+    background: black;
+    color: white;
+}
+table{
+    width: 100%;
+}
+th, td{
+    padding: 10px;
+}
 #container #span
 {
     color: red;
 }
 #container #logo
 {
+
     width: 90px;
     height: 90px;
 }

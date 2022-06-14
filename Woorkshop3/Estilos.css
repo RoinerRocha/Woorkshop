@@ -1,47 +1,50 @@
-body
-{
+body {
     background: white;
     color: black;
     text-align: left;
     font-family: "Arial";
     font-size: 16px;
-    margin: 0;  
+    margin: 0;
     padding: 0;
 }
-table, th, td{
+
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     width: 100;
- 
-    
+
+
 }
-th{
+
+th {
     background: black;
     color: white;
 }
-table{
+
+table {
     width: 100%;
 }
-th, td{
+
+th, td {
     padding: 10px;
 }
-#container #span
-{
+
+#container #span {
     color: red;
 }
-#container #logo
-{
+
+#container #logo {
 
     width: 90px;
     height: 90px;
 }
-#container #logo2
-{
+
+#container #logo2 {
     width: 90px;
     height: 90px;
 }
-#container
-{
+
+#container {
     width: 70%;
     padding: 0;
     text-align: left;

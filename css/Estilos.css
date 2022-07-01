@@ -1,3 +1,118 @@
+body
+{
+    background: #606060;;
+    color: #333;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    float: left;
+    padding: 0;
+    
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 15px;
+
+}
+
+#cabecera 
+{
+    background: rgba(233, 233, 233, 0.651);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 15px;
+    
+    
+}
+#cabecera #logo{
+    width: 50px;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 25px;
+}
+#cabecera #tagline2
+{
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    
+}
+#container
+{
+    width: 55%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 30px;
+    color: black;
+}
+
+#post
+{
+    text-align: center;
+    background: #EABE3F;
+    padding: 1em;
+}
+#post #poster1
+{
+    height: 300;
+    width: 300;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#lupa{
+    
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.buscar{
+    padding: 5px;
+    width: 250px;
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+}
+
+
+
+
 .text-platzi {
     color: #97c93e !important;
 }
@@ -7,63 +122,32 @@
     color: white !important;
 }
 
+.btn-platzi-1 {
+    background-color: black;
+    color: white !important;
+    height: 30px;
+    width: 70px;
+}
+
 .btn-platzi:hover {
     background-color: #82ad36;
 }
-
-* {
-    padding: 0;
-    margin: 0;
-
-}
-
-body {
-    background: white;
+.parrafo-1{
+    background: #26272b;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-#cabecera {
-    background: rgba(155, 152, 152, 0.712);
+.info-1{
+    background: white;
+    color: #26272b;
 }
-
-header {
-    background: rgba(155, 152, 152, 0.712);
-    width: 100%;
-    clear: both;
-    content: '';
-    display: table;
+.info-2{
+    background: rgb(122, 102, 211);
+    color: #26272b;
 }
-
-.menu {
-    width: 900px;
-    margin: 0 auto;
-    
-}
-
-#Logo {
-    width: 70px;
-    float: left;
-    padding: 8px;
-}
-
-#Logo1 {
-    width: 25px;
-}
-
-nav {
-    float: right;
-
-}
-
-nav ul li {
-    list-style: none;
-    margin-left: 15px;
-    padding: 27px 0;
-    float: left;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+.info-3{
+    background: rgb(180, 172, 169);
+    color: #26272b;
 }

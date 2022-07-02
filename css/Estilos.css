@@ -1,39 +1,35 @@
-body
-{
-    background: #606060;;
+body {
+    background: #606060;
     color: #333;
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
     margin: 0;
     padding: 0;
-    clear: both;
-    content: '';
-    display: table;
 }
 
 nav {
     float: right;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-left: 15px;
     float: left;
     padding: 0;
-    
 
-}
-nav ul li a{
-   text-decoration: none;
-   color: black;
-   font-weight: bold;
-   font-size: 15px;
 
 }
 
-#cabecera 
-{
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#cabecera {
     background: rgba(233, 233, 233, 0.651);
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: black;
@@ -41,28 +37,58 @@ nav ul li a{
     margin: 0 auto;
     padding: 0.5em;
     font-size: 15px;
-    
-    
-}
-#cabecera #logo{
-    width: 50px;
+    padding-bottom: 50px;
 }
 
-#cabecera #tagline
-{
+#cabecera #logo {
+    width: 50px;
+    float: none;
+    margin: 0;
+    padding-right: 250px;
+}
+
+#imagen1 {
+    width: 210px;
+}
+
+#div1 {
+    float: left;
+    padding-left: 50px;
+}
+
+#imagen2 {
+    width: 210px;
+}
+
+#div2 {
+    float: left;
+    padding-left: 120px;
+
+}
+
+#imagen3 {
+    width: 165px;
+}
+
+#div3 {
+    float: left;
+    padding-left: 120px;
+}
+
+#cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 25px;
 }
-#cabecera #tagline2
-{
+
+#cabecera #tagline2 {
     font-weight: normal;
     font-size: 25px;
     color: black;
-    
+
 }
-#container
-{
+
+#container {
     width: 55%;
     padding: 0;
     text-align: center;
@@ -70,40 +96,45 @@ nav ul li a{
     margin: 0 auto;
 }
 
-#container h1
-{
+#container h1 {
     font-size: 30px;
     color: black;
 }
 
-#post
-{
+#categorias {
     text-align: center;
-    background: #EABE3F;
-    padding: 1em;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 200px;
 }
-#post #poster1
-{
+
+#categorias #parrafo1 {
+    font-size: 13px;
+    font-weight: 10px;
+}
+
+#categorias #poster1 {
     height: 300;
     width: 300;
 }
-#footer
-{
+
+#footer {
     background: #777;
     color: white;
     text-align: center;
     padding: 0.5em;
 }
 
-#lupa{
-    
+#lupa {
+
     top: 0;
     left: 0;
     width: 20px;
     height: 20px;
     line-height: 20px;
 }
-.buscar{
+
+.buscar {
     padding: 5px;
     width: 250px;
     font-family: "Font Awesome 6 free";
@@ -111,14 +142,12 @@ nav ul li a{
 }
 
 
-
-
 .text-platzi {
     color: #97c93e !important;
 }
 
 .btn-platzi {
-    background-color: #97c93e;
+    background-color: #777;
     color: white !important;
 }
 
@@ -132,22 +161,25 @@ nav ul li a{
 .btn-platzi:hover {
     background-color: #82ad36;
 }
-.parrafo-1{
+
+.parrafo-1 {
     background: #26272b;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.info-1{
+.info-1 {
     background: white;
     color: #26272b;
 }
-.info-2{
+
+.info-2 {
     background: rgb(122, 102, 211);
     color: #26272b;
 }
-.info-3{
+
+.info-3 {
     background: rgb(180, 172, 169);
     color: #26272b;
 }

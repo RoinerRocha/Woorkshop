@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -47,9 +48,76 @@ nav ul li a {
     padding-right: 250px;
 }
 
+
+
+#play{
+    width: 250px;
+    align-items: center;
+}
+#primer-cambalache{
+    float: left;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+#fornite{
+    width: 110px;
+    align-items: center;
+}
+
+#segundo-cambalache{
+    float: left;
+    padding-left: 250px;
+    padding-top: 8px;
+}
+
+#mortal{
+    width: 120px;
+    align-items: center;
+}
+#tercer-cambalache{
+    float: left;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+#olla{
+    width: 155px;
+    align-items: center;
+}
+#cuarto-cambalache{
+    float: left;
+    padding-left: 300px;
+    padding-top: 18px;
+}
+
+#compu{
+    width: 255px;
+    align-items: center;
+}
+#quinto-cambalache{
+    float: left;
+    padding-left: 150px;
+    padding-top: 18px;
+}
+
+#sillon{
+    width: 200px;
+    align-items: center;
+}
+#sexto-cambalache{
+    float: left;
+    padding-left: 220px;
+    padding-top: 18px;
+}
+
+
+    
+
 #imagen1 {
     width: 210px;
 }
+
 
 #div1 {
     float: left;
@@ -113,11 +181,6 @@ nav ul li a {
     font-weight: 10px;
 }
 
-#categorias #poster1 {
-    height: 300;
-    width: 300;
-}
-
 #footer {
     background: #777;
     color: white;
@@ -134,6 +197,32 @@ nav ul li a {
     line-height: 20px;
 }
 
+#cambalache{
+    background-color: white;
+    border-top: 1px solid black;
+    padding-bottom: 2px;
+}
+
+#contentItemCarrousel {
+    height: 220px;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 17px;
+
+}
+
+#tarjeta1 {
+    background-color: white;
+}
+
+#tarjeta2 {
+    background-color: white;
+}
+
+#tarjeta3 {
+    background-color: white;
+}
+
 .buscar {
     padding: 5px;
     width: 250px;
@@ -141,9 +230,40 @@ nav ul li a {
     font-weight: 900;
 }
 
+.links{
+    text-decoration: none;
+}
 
-.text-platzi {
-    color: #97c93e !important;
+
+.item-carrousel {
+    
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+.tarjeta-carrousel {
+    height: 100%;
+    display: flex;
+
+}
+
+.flechas-carrousel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-angle-left {
+    padding: 20px;
+}
+
+.fa-angle-right {
+    padding: 20px;
 }
 
 .btn-platzi {
@@ -167,19 +287,4 @@ nav ul li a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-
-.info-1 {
-    background: white;
-    color: #26272b;
-}
-
-.info-2 {
-    background: rgb(122, 102, 211);
-    color: #26272b;
-}
-
-.info-3 {
-    background: rgb(180, 172, 169);
-    color: #26272b;
 }

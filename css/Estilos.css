@@ -111,9 +111,6 @@ nav ul li a {
     padding-top: 18px;
 }
 
-
-    
-
 #imagen1 {
     width: 210px;
 }
@@ -182,11 +179,54 @@ nav ul li a {
 }
 
 #footer {
-    background: #777;
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
     padding: 0.5em;
+    border-top: 1px solid black;
+    padding-bottom: 50px;
+    
 }
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer nav{
+    float: left;
+    padding-left: 260px;
+}
+
+#footer nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    float: center;
+    padding: 0;
+    padding-left: 0px;
+}
+
+#footer2{
+    text-align: center;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+}
+
+ #img{
+    width: 20px;
+    padding-top: 15px;
+    padding-left: 390px;
+  
+ }
+ #paf1{
+    padding-top: 0;
+    padding-right: 400px;
+ }
+
 
 #lupa {
 
@@ -222,6 +262,7 @@ nav ul li a {
 #tarjeta3 {
     background-color: white;
 }
+
 
 .buscar {
     padding: 5px;

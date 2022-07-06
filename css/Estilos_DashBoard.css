@@ -1,0 +1,274 @@
+body {
+    background: #606060;
+    color: #333;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    padding-right: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 15px;
+    float: left;
+    padding: 0;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+#titulos #titulo1 {
+    font-size: 40px;
+}
+
+#cabecera {
+    background: rgb(221, 216, 216);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#cabecera #logo {
+    width: 50px;
+    float: none;
+    margin: 0;
+    padding-right: 550px;
+}
+
+#container {
+    width: 70%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 30px;
+    color: black;
+}
+
+#titulos {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 1em;
+    border-top: 1px solid black;
+}
+
+#boton {
+    background-color: white;
+    border-top: 1px solid black;
+    padding: 1em;
+    border-bottom: 1px solid black;
+
+}
+
+#imagen1 {
+    width: 210px;
+    height: 140px;
+    float: left;
+}
+
+#div1 {
+    float: left;
+    padding-left: 50px;
+}
+
+#imagen2 {
+    width: 210px;
+    width: 210px;
+    height: 140px;
+    float: left;
+
+}
+
+#div2 {
+    float: left;
+    padding-left: 60px;
+
+}
+
+#imagen3 {
+    width: 210px;
+    width: 210px;
+    height: 140px;
+    float: left;
+}
+
+#div3 {
+    float: left;
+    padding-left: 40px;
+}
+
+#categorias {
+    text-align: center;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 400px;
+}
+
+#categorias #parrafo1 {
+    font-size: 13px;
+    font-weight: 10px;
+}
+
+#link1 {
+    padding-left: 20px;
+}
+
+#link2 {
+    padding-left: 20px;
+}
+
+#link3 {
+    padding-left: 20px;
+}
+
+#footer {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    padding-bottom: 50px;
+    
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer nav{
+    float: left;
+    padding-left: 350px;
+}
+
+#footer nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    float: center;
+    padding: 0;
+    padding-left: 0px;
+}
+
+#footer2{
+    text-align: center;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start; 
+}
+
+ #img{
+    width: 20px;
+    padding-top: 15px;
+    padding-left: 520px;
+  
+ }
+ #paf1{
+    padding-top: 0;
+    padding-right: 540px;
+ }
+
+
+.btn-platzi {
+    background-color: #777;
+    color: white !important;
+
+}
+
+.btn-platzi-1 {
+    background-color: rgb(78, 78, 78);
+    color: white !important;
+    height: 40px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 950px;
+}
+
+.btn-platzi-2 {
+    background-color: green;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-platzi-3 {
+    background-color: red;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.btn-platzi-4 {
+    background-color: green;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-platzi-5 {
+    background-color: red;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.btn-platzi-6 {
+    background-color: green;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-platzi-7 {
+    background-color: red;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+}

@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 #cabecera {
-    background: rgb(221, 216, 216);
+    background: white;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: black;
     font-weight: bold;
@@ -66,113 +66,53 @@ nav ul li a {
     font-size: 30px;
     color: black;
 }
-
-#titulos {
-    background-color: white;
-    padding-top: 40px;
-    padding-bottom: 1em;
+#producto {
+    text-align: center;
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
+}
+
+#foto {
+    float: left;
+    width: 55%;
+    height: 500px;
+
 }
 
 #imagen1 {
-    width: 210px;
-    height: 140px;
-    float: left;
+    height: 100%;
+    width: 100%;
 }
 
-#div1 {
-    float: left;
-    padding-left: 50px;
+#titulo {
+    padding-top: 20px;
 }
 
-#imagen2 {
-    width: 210px;
-    width: 210px;
-    height: 140px;
-    float: left;
-
+#titulo1 {
+    padding-right: 190px;
 }
-
-#div2 {
-    float: left;
-    padding-left: 60px;
-
+#barra {
+    padding-top: 20px;
+    margin-right: 25px;
 }
-
-#imagen3 {
-    width: 210px;
-    width: 210px;
-    height: 140px;
-    float: left;
+#titulo2 {
+    padding-right: 280px;
 }
-
-#div3 {
-    float: left;
-    padding-left: 40px;
+#descripcion {
+    padding-right: 95px;
 }
-
-#div4 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px;
+#titulo3 {
+    padding-right: 320px;
 }
-
-#div5 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px; 
+#busqueda {
+    padding-right: 70px;
 }
-
-#div6 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px; 
-}
-
-#div7 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px; 
-}
-
-#div8 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px; 
-}
-
-#div9 {
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px; 
-}
-
-
-#categorias {
-    text-align: center;
-    background: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    overflow: hidden;
-}
-
-#categorias #parrafo1 {
-    font-size: 13px;
-    font-weight: 10px;
-}
-
-#link1 {
-    padding-left: 20px;
-
-}
-
-#link2 {
-    padding-left: 20px;
-}
-
-#link3 {
-    padding-left: 20px;
+#raya_pequeña {
+    padding-top: 40px;
+    padding-right: 290px;
 }
 
 #footer {
@@ -222,20 +162,21 @@ nav ul li a {
     padding-right: 540px;
  }
 
-.parrafos{
-    margin-top: 5px;
-    padding-right: 30px;
-}
 
-.parrafos1 {
-    margin-top: 5px;
-    padding-left: 10px;
-}
 
 .btn-platzi {
     background-color: #777;
     color: white !important;
 
+}
+
+.btn-platzi-1 {
+    background-color: rgb(78, 78, 78);
+    color: white !important;
+    height: 40px;
+    width: 150px;
+    margin-right: 230px;
+   
 }
 
 .btn-platzi:hover {

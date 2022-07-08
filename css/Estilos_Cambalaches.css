@@ -28,7 +28,13 @@ nav ul li a {
     color: black;
     font-weight: bold;
     font-size: 15px;
+    Color: #c95555;
 
+}
+
+a {
+    text-decoration: none;
+    Color: #c95555;
 }
 
 
@@ -121,31 +127,31 @@ nav ul li a {
 #div5 {
     float: left;
     padding-left: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 #div6 {
     float: left;
     padding-left: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 #div7 {
     float: left;
     padding-left: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 #div8 {
     float: left;
     padding-left: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 #div9 {
     float: left;
     padding-left: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 
@@ -182,19 +188,19 @@ nav ul li a {
     padding: 0.5em;
     border-top: 1px solid black;
     padding-bottom: 40px;
-    
+
 }
 
-#footer a{
+#footer a {
     text-decoration: none;
 }
 
-#footer nav{
+#footer nav {
     float: left;
     padding-left: 350px;
 }
 
-#footer nav ul li{
+#footer nav ul li {
     list-style: none;
     margin-left: 40px;
     float: center;
@@ -202,27 +208,28 @@ nav ul li a {
     padding-left: 0px;
 }
 
-#footer2{
+#footer2 {
     text-align: center;
     background: white;
     padding-bottom: px;
     display: flex;
     justify-content: space-around;
-    align-items:flex-start; 
+    align-items: flex-start;
 }
 
- #img{
+#img {
     width: 20px;
     padding-top: 15px;
     padding-left: 510px;
-  
- }
- #paf1{
+
+}
+
+#paf1 {
     padding-top: 0;
     padding-right: 540px;
- }
+}
 
-.parrafos{
+.parrafos {
     margin-top: 5px;
     padding-right: 30px;
 }

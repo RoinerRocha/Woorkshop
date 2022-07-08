@@ -28,7 +28,12 @@ nav ul li a {
     color: black;
     font-weight: bold;
     font-size: 15px;
+    color: #c95555;
+}
 
+a {
+    text-decoration: none;
+    Color: #c95555;
 }
 
 

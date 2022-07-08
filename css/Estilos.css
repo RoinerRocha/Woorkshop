@@ -24,9 +24,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
     font-weight: bold;
     font-size: 15px;
+    Color: #c95555
 
 }
 
@@ -208,8 +208,7 @@ nav ul li a {
 #footer2{
     text-align: center;
     background: white;
-    padding-top: 1em;
-    padding-bottom: 10px;
+
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
@@ -224,7 +223,7 @@ nav ul li a {
  }
  #paf1{
     padding-top: 0;
-    padding-right: 400px;
+    padding-right: 430px;
  }
 
 
@@ -244,24 +243,14 @@ nav ul li a {
 }
 
 #contentItemCarrousel {
-    height: 220px;
+    height: 250px;
     overflow: hidden;
     background-color: white;
     padding-bottom: 17px;
 
 }
 
-#tarjeta1 {
-    background-color: white;
-}
 
-#tarjeta2 {
-    background-color: white;
-}
-
-#tarjeta3 {
-    background-color: white;
-}
 
 
 .buscar {

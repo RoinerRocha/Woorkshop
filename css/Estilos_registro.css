@@ -28,7 +28,12 @@ nav ul li a {
     color: black;
     font-weight: bold;
     font-size: 15px;
+    Color: #c95555
 
+}
+
+a{
+    Color: #c95555; 
 }
 
 #cabecera {
@@ -93,7 +98,7 @@ nav ul li a {
 
 #footer nav{
     float: left;
-    padding-left: 350px;
+    padding-left: 320px;
 }
 
 #footer nav ul li{

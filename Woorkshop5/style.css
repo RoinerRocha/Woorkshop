@@ -1,0 +1,50 @@
+header{
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background-color: pink;
+    width: 100%;
+}
+.main{
+    color: white;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: auto auto auto;
+}
+#primeros{
+    background-color: orange;
+    padding: 18px;
+}
+.segundos{
+    background-color: blue;
+    padding: 18px;
+}
+#terceros{
+    background-color: blue;
+    grid-column: 3;
+    padding: 18px;
+}
+@media only screen and (max-width: 600px) {
+	.main{
+        display: block;
+    }
+    #primeros{
+        margin-top:10px;
+    }
+    .segundos{
+        margin-top:10px;
+    }
+    #terceros{
+        margin-top:10px;
+    }
+    div.main a{
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    div.main select{
+        display: none;
+    }
+}

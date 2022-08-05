@@ -5,14 +5,46 @@
 .btn-platzi {
     background-color: #97c93e;
     color: white !important;
+    font-size: 12px;
+    margin-top: 5px;
 }
+
 
 .btn-platzi:hover {
     background-color: #82ad36;
 }
 
+
+
+#container {
+    width: 55%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 30px;
+    color: black;
+} 
+
+#header {
+    padding-left: 50px;
+}
+
 #header img {
-    width: 80px;
+    width: 50px;
+}
+
+#carrito{
+    width: 15px;
+}
+
+
+#speakers {
+    background: white;
+    display: flex;
 }
 
 #main .carousel-inner img {

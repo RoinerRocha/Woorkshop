@@ -14,6 +14,10 @@
     background-color: #82ad36;
 }
 
+#img {
+    width: 25px;
+}
+
 
 
 #container {
@@ -98,3 +102,4 @@
 #footer a {
     color: white;
 }
+

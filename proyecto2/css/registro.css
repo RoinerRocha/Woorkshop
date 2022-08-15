@@ -1,0 +1,91 @@
+.text-platzi {
+    color: #97c93e !important;
+}
+
+.btn-platzi {
+    background-color: #97c93e;
+    color: white !important;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+}
+
+#img {
+    width: 25px;
+}
+
+
+
+#container {
+    width: 55%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 30px;
+    color: black;
+} 
+
+#header {
+    padding-left: 50px;
+}
+
+#header img {
+    width: 50px;
+}
+
+#carrito{
+    width: 15px;
+}
+
+#placeholder-name {
+    width: 200px;
+    height: 40px;
+}
+
+#placeholder-lastname{
+    width: 200px;
+    height: 40px
+}
+
+#placeholder-city {
+    width: 200px;
+    height: 40px
+}
+
+#placeholder-Correo {
+    width: 200px;
+    height: 40px
+}
+
+#placeholder-Contraseña{
+    width: 200px;
+    height: 40px
+}
+
+#select-country {
+    width: 200px;
+    height: 40px
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(10%);
+}
+
+#footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+    color: white;
+}

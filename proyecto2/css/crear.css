@@ -45,24 +45,24 @@
     width: 15px;
 }
 
-#placeholder-name {
+#placeholder-ProducName {
     width: 200px;
     height: 40px;
 }
 
-#placeholder-lastname{
+#placeholder-descripcion{
+    width: 200px;
+    height: 100px
+}
+
+#placeholder-img {
     width: 200px;
     height: 40px
 }
 
-#placeholder-city {
+#placeholder-intereses {
     width: 200px;
-    height: 40px
-}
-
-#select {
-    width: 200px;
-    height: 40px
+    height: 100px
 }
 
 #main .carousel-inner img {

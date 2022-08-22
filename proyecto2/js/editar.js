@@ -1,4 +1,3 @@
-debugger;
 var productToEdit = localStorage.getItem('productToEdit');
 $(window).on('load', function () {
     let products = JSON.parse(localStorage.getItem('productos'))
@@ -17,7 +16,6 @@ function editProduct() {
     const productDesc = document.getElementById("placeholder-descripcion2").value;
     const productUrl = document.getElementById("placeholder-imagen2").value;
     const productInterest = document.getElementById("placeholder-intereses2").value;
-    debugger;
         //Find index of specific object using findIndex method.
         let products = JSON.parse(localStorage.getItem('productos'))    
     objIndex = products.findIndex((obj => obj.id == productToEdit));

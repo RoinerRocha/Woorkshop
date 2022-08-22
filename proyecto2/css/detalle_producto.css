@@ -45,24 +45,9 @@
     width: 15px;
 }
 
-#placeholder-ProducName {
-    width: 200px;
-    height: 40px;
-}
-
-#placeholder-descripcion{
-    width: 200px;
-    height: 100px
-}
-
-#placeholder-img {
-    width: 200px;
-    height: 40px
-}
-
-#placeholder-intereses {
-    width: 200px;
-    height: 100px
+#btn-Agregar{
+    width: 160px;
+    height: 45px;
 }
 
 #main .carousel-inner img {

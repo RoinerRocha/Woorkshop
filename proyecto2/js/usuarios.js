@@ -1,4 +1,3 @@
-debugger;
 const userDropdown = document.getElementById('userDropdown');
 if (userDropdown) {
     userDropdown.style.display = 'none';
@@ -72,7 +71,6 @@ $('#button-addon1').bind('click', function(){
 });
 
 $(window).on('load', function() {
-    debugger;
     if (localStorage.getItem('loggedUser') !== 'null') {
         
         const userDropdown = document.getElementById('userDropdown');

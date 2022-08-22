@@ -70,5 +70,7 @@ function editProduct(productId) {
 
 
 
+
+
 document.getElementById('nombre').innerHTML = '' + localStorage.getItem('loggedUser') + ''
 

@@ -30,25 +30,41 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-n5 ml-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#main">inicio</a>
+                            <a class="nav-link" href="index.html" target="_self">inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#speakers">|</a>
+                            <a class="nav-link">|</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#place-time">Cambalaches</a>
+                            <a class="nav-link" href="cambalaches.html" target="_self">Cambalaches</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#place-time">|</a>
+                            <a class="nav-link">|</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#place-time">Ingresar</a>
+                            <a class="nav-link" href="dashboard.html" id="dashboard">dashboard </a>
                         </li>
-                        <li class="nav-item"><a href="DashBoard.html"><button type="button" class="btn btn-platzi"
+                        <li class="nav-item">
+                            <a class="nav-link" id="line">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown" id="userDropdown">
+                                <!-- <button  id="ingreso" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </button> -->
+                                <a class="nav-link" style="cursor: pointer;" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" onclick="logout();">Desconectar</a>
+                                </div>
+                            </div>
+                            <a class="nav-link" href="login.html" id="ingresar">Ingresar</a>
+                        </li>
+                        
+                        <li class="nav-item"><a href="#"><button type="button" class="btn btn-platzi"
                                     data-target="#modalCompra">
-                                    <i class="fa-solid fa-cart-shopping"></i> Mi carrito</button></a></li>
+                                    <i class="fa-solid fa-cart-shopping"></i> Mi carrito</button></a></li> 
                     </ul>
                 </div>
             </div>
@@ -105,7 +121,8 @@
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
         crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="js/cambalaches.js"></script>    
+    <script type="text/javascript" src="js/cambalaches.js"></script> 
+    <script type="text/javascript" src="js/usuarios.js"></script>   
 
     </div>
 </body>

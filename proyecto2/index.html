@@ -37,28 +37,36 @@
                             <a class="nav-link" href="index.html" target="_self">inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">|</a>
+                            <a class="nav-link">|</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="cambalaches.html" target="_self">Cambalaches</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">|</a>
+                            <a class="nav-link">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard.html" id="dashboard">dashboard </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="line">|</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown" id="userDropdown">
                                 <!-- <button  id="ingreso" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 </button> -->
-                                <a class="nav-link" href="#place-time" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                <a class="nav-link" style="cursor: pointer;" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#" onclick="logout();">Logout</a>
+                                    <a class="dropdown-item" onclick="logout();">Desconectar</a>
                                 </div>
                             </div>
                             <a class="nav-link" href="login.html" id="ingresar">Ingresar</a>
                         </li>
+                        
                         <li class="nav-item"><a href="#"><button type="button" class="btn btn-platzi"
                                     data-target="#modalCompra">
-                                    <i class="fa-solid fa-cart-shopping"></i> Mi carrito</button></a></li>
+                                    <i class="fa-solid fa-cart-shopping"></i> Mi carrito</button></a></li> 
                     </ul>
                 </div>
             </div>
@@ -88,28 +96,29 @@
                     <div class="row mt-5">
                         <div class="col-12 col-md-6 col-lg-3 mb-4 mx-auto">
                             <div class="card">
-                                <img src="imagenes/electronicos.jpg" class="card-img-top" alt="foto de Dominion">
+                                <img src="imagenes/electronicos.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">Electronicos</h5>
-                                    <a href="news1.html" target="_self" class="btn btn-primary">Ir a la pagina</a>
+                                    <a href="cambalaches.html" target="_self" class="btn btn-primary">Ir a la pagina</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 mb-4 mx-lg-n5">
                             <div class="card">
-                                <img src="imagenes/hogar.jpeg" class="card-img-top" alt="foto de Chip and dale">
+                                <img src="imagenes/hogar.jpeg" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">Hogar</h5>
-                                    <a href="news2.html" target="_self" class="btn btn-primary">Ir a la pagina</a>
+                                    <a href="cambalaches.html" target="_self" class="btn btn-primary">Ir a la pagina</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 mb-4 mx-auto">
                             <div class="card">
-                                <img src="imagenes/negocios.jpg" class="card-img-top" alt="foto de Sonic2">
+                                <img src="imagenes/negocios.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">Negocios</h5>
-                                    <a href="" target="_self" class="btn btn-primary" id="btn-negocio">Ir a la pagina</a>
+                                    <a href="cambalaches.html" target="_self" class="btn btn-primary"
+                                        id="btn-negocio">Ir a la pagina</a>
                                 </div>
                             </div>
                         </div>
@@ -208,10 +217,8 @@
     <!-- header -->
 
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>

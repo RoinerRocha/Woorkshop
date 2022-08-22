@@ -6,9 +6,17 @@ const ingresar = document.getElementById('ingresar');
 if (ingresar) {
     ingresar.style.display = 'none';
 }
+const dashboard = document.getElementById('dashboard');
+if (dashboard) {
+    dashboard.style.display = 'none';
+}
+const line = document.getElementById('line');
+if (line) {
+    line.style.display = 'none';
+}
 
 const ingreso = document.getElementById('ingreso');
-function addUser(){
+function addUser() {
     const UserName = $('#placeholder-name').val();
     const UserLastName = $('#placeholder-lastname').val();
     const UserAddres = $('#placeholder-addres').val();
@@ -17,10 +25,10 @@ function addUser(){
     const UserCity = $('#placeholder-city').val();
     const UserCorreo = $('#placeholder-Correo').val();
     const UserContra = $('#placeholder-Contraseña').val();
-    
+
 
     let UserDb = JSON.parse(localStorage.getItem('users'));
-    if(!UserDb){
+    if (!UserDb) {
         UserDb = [];
     }
     const user = {
@@ -41,41 +49,45 @@ function addUser(){
     window.location.href = 'login.html';
 }
 
-function login(){
+function login() {
     const users = JSON.parse(localStorage.getItem('users'));
     const correo = $('#placeholder-CorreoElectronico').val();
     const contra = $('#placeholder-Contraseña').val();
-    if(users){
-        users.forEach((user) =>{
-            if(correo == user.correo && contra == user.contra){
+    if (users) {
+        users.forEach((user) => {
+            if (correo == user.correo && contra == user.contra) {
                 localStorage.setItem('loggedUser', user.name);
-                window.location.href = 'index.html'; 
+                window.location.href = 'index.html';
             }
         });
     }
 }
 
-function logout(){
+function logout() {
     localStorage.setItem('loggedUser', null);
     window.location.href = 'login.html';
 }
 
 
 
-$('#button-addon12').bind('click', function(){
+$('#button-addon12').bind('click', function () {
     login();
 });
 
-$('#button-addon1').bind('click', function(){
+$('#button-addon1').bind('click', function () {
     addUser();
 });
 
-$(window).on('load', function() {
+$(window).on('load', function () {
     if (localStorage.getItem('loggedUser') !== 'null') {
-        
+
         const userDropdown = document.getElementById('userDropdown');
+        const dashboard = document.getElementById('dashboard');
+        const line = document.getElementById('line');
         if (userDropdown) {
             userDropdown.style.display = 'block';
+            dashboard.style.display = 'block';
+            line.style.display = 'block';
             document.getElementById("dropdownMenuButton").innerHTML = localStorage.getItem('loggedUser');
         }
     } else {

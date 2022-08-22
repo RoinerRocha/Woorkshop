@@ -4,10 +4,12 @@ function addProducts() {
     const ProductURL = $('#placeholder-imagen').val();
     const ProductIntereses = $('#placeholder-intereses').val();
 
+    debugger;
     let ProductDb = JSON.parse(localStorage.getItem('productos'));
     if (!ProductDb) {
         ProductDb = [];
     }
+    debugger;
     const product = {
         name: ProductName,
         owner: localStorage.getItem('loggedUser'),
@@ -17,6 +19,7 @@ function addProducts() {
         interes: ProductIntereses
 
     }
+    debugger;
     ProductDb.push(product);
     localStorage.setItem('productos', JSON.stringify(ProductDb));
 
@@ -40,7 +43,7 @@ $(window).on('load', function () {
             divElement.id = i;
             productsContainer.appendChild(divElement);
             divElement.classList.add('col-md-6');
-            var cardHtml = '<div class="card mt-3 mb-3 col-12" style=" height: 90%";><div class="row g-0"><div class="col-md-6"><img src="' + products[i].url + '" class="img-fluid" alt="..."></div><div class="col-md-6"><div class="card-body"><h5 class="card-title">' + products[i].name + '</h3><p class="card-text"><h5 class="card-title"></h3><p class="card-text"><a class="btn btn-danger" onClick="deleteProduct(' + products[i].id + ')">Delete</a></p><p class="card-text"><small class="text-muted"><a class="btn btn-primary" onClick="editProduct(' + products[i].id + ')">Editar</a></small></p></div></div></div></div>';
+            var cardHtml = '<div class="card mt-3 mb-3 col-12" style=" height: 90%";><div class="row g-0"><div class="col-md-6"><img src="' + products[i].url + '" class="img-fluid" style="max-width: auto; min-height: 300px; flex:"></div><div class="col-md-6"><div class="card-body"><h5 class="card-title">' + products[i].name + '</h3><p class="card-text"><h5 class="card-title"></h3><p class="card-text"><a class="btn btn-danger" onClick="deleteProduct(' + products[i].id + ')">Delete</a></p><p class="card-text"><small class="text-muted"><a class="btn btn-primary" onClick="editProduct(' + products[i].id + ')">Editar</a></small></p></div></div></div></div>';
             document.getElementById(divElement.id).innerHTML = cardHtml;
         }
 

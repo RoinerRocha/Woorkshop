@@ -113,7 +113,7 @@ $(window).on('load', function () {
             var carouselItemHtml = '<div class="carousel-item active"><div class="row" id="row'+ i +'"></div></div>';
             document.getElementById(divElement.id).innerHTML = carouselItemHtml;
             
-            debugger;
+
             let productOne = products[0];
             let productTwo = products[1];
             var imagesHtlm = '<div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productOne.url +'" class=" w-50 h-100" alt="..." onClick = "detailProduct('+ productOne.id +')" ><p>'+ productOne.name +'</p></div><div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productTwo.url +'" class=" w-50 h-100" alt="articulo1" onClick = "detailProduct('+ productTwo.id +')" ><p>'+ productTwo.name +'</p></div>'
@@ -124,8 +124,6 @@ $(window).on('load', function () {
             divElement.id = i;
             carouselContainer.appendChild(divElement);
             
-            
-            debugger;
             let productOne = products[cont - 1];
             let productTwo = products[cont];
             if (productOne != undefined && productTwo != undefined) {
@@ -146,7 +144,6 @@ $(window).on('load', function () {
     }
 });
 function detailProduct(productId){ 
-    debugger;
     localStorage.setItem('detailProduct', productId);
     window.location.href = 'detalle_producto.html';
 }

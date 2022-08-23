@@ -4,12 +4,12 @@ function addProducts() {
     const ProductURL = $('#placeholder-imagen').val();
     const ProductIntereses = $('#placeholder-intereses').val();
 
-    debugger;
+
     let ProductDb = JSON.parse(localStorage.getItem('productos'));
     if (!ProductDb) {
         ProductDb = [];
     }
-    debugger;
+
     const product = {
         name: ProductName,
         owner: localStorage.getItem('loggedUser'),
@@ -19,7 +19,7 @@ function addProducts() {
         interes: ProductIntereses
 
     }
-    debugger;
+
     ProductDb.push(product);
     localStorage.setItem('productos', JSON.stringify(ProductDb));
 

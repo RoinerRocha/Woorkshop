@@ -14,7 +14,6 @@ $(window).on('load', function () {
 });
 
 function detailProduct(productId){ 
-    debugger;
     localStorage.setItem('detailProduct', productId);
     window.location.href = 'detalle_producto.html';
 }

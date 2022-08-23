@@ -97,5 +97,56 @@ $(window).on('load', function () {
             document.getElementById("ingresar").innerHTML = "Ingresar";
         }
     }
-});
 
+    const carouselContainer = document.getElementById('carouselContainer');
+    let products = []
+    products = JSON.parse(localStorage.getItem('productos'));
+    products = products.reverse();
+    var divElement;
+    var cont = 0;
+    for (var i = 0; i < products.length; i++) {
+        if (i === 0) {
+            divElement = document.createElement('div');
+            divElement.id = i;
+            carouselContainer.appendChild(divElement);
+            // var carouselItemHtml = '<div class="carousel-item active"><div class="row"><div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ products[i].url +'" class=" w-50 h-100" alt="..."><p>'+ products[i].name +'</p></div><div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ products[i].url +'" class=" w-50 h-100" alt="articulo1"><p>'+ products[i].name +'</p></div></div></div>';
+            var carouselItemHtml = '<div class="carousel-item active"><div class="row" id="row'+ i +'"></div></div>';
+            document.getElementById(divElement.id).innerHTML = carouselItemHtml;
+            
+            debugger;
+            let productOne = products[0];
+            let productTwo = products[1];
+            var imagesHtlm = '<div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productOne.url +'" class=" w-50 h-100" alt="..." onClick = "detailProduct('+ productOne.id +')" ><p>'+ productOne.name +'</p></div><div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productTwo.url +'" class=" w-50 h-100" alt="articulo1" onClick = "detailProduct('+ productTwo.id +')" ><p>'+ productTwo.name +'</p></div>'
+            document.getElementById("row" + i ).innerHTML = imagesHtlm;
+            cont = cont + 3;
+        } else {
+            divElement = document.createElement('div');
+            divElement.id = i;
+            carouselContainer.appendChild(divElement);
+            
+            
+            debugger;
+            let productOne = products[cont - 1];
+            let productTwo = products[cont];
+            if (productOne != undefined && productTwo != undefined) {
+                var carouselItemHtml = '<div class="carousel-item"><div class="row" id="row'+ i +'"></div></div>';
+                document.getElementById(divElement.id).innerHTML = carouselItemHtml;
+                var imagesHtlm = '<div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productOne.url +'" class=" w-50 h-100" alt="..." onClick = "detailProduct('+ productOne.id +')"  ><p>'+ productOne.name +'</p></div><div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productTwo.url +'" class=" w-50 h-100" alt="articulo1" onClick = "detailProduct('+ productTwo.id +')"  ><p>'+ productTwo.name +'</p></div>'
+            } else if (productOne == undefined && productTwo == undefined) {
+                break;
+            } else {
+                var carouselItemHtml = '<div class="carousel-item"><div class="row" id="row'+ i +'"></div></div>';
+                document.getElementById(divElement.id).innerHTML = carouselItemHtml;
+                var imagesHtlm = '<div class="col-12 col-sm-5 col-md-6 col-lg-5 mb-4 mx-lg-auto mx-md-auto mx-sm-auto"><img src="'+ productOne.url +'" class=" w-50 h-100" alt="..." onClick = "detailProduct('+ productOne.id +')"  ><p>'+ productOne.name +'</p></div>'
+            }
+            document.getElementById("row" + i ).innerHTML = imagesHtlm;
+            cont = cont + 2;
+        }
+        
+    }
+});
+function detailProduct(productId){ 
+    debugger;
+    localStorage.setItem('detailProduct', productId);
+    window.location.href = 'detalle_producto.html';
+}
